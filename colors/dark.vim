@@ -19,7 +19,7 @@ highlight DiffChange                 guifg=none    guibg=#121212 gui=none
 highlight DiffDelete                 guifg=#ff6c60 guibg=#121212 gui=none
 highlight DiffText                   guifg=white   guibg=#303030 gui=none
 highlight Error                      guifg=none    guibg=none    gui=undercurl
-highlight ErrorMsg                   guifg=white   guibg=#ff6c60 gui=none
+highlight ErrorMsg                   guifg=#000000 guibg=#ff6c60 gui=none
 highlight FoldColumn                 guifg=none    guibg=none    gui=none
 highlight Folded                     guifg=none    guibg=none    gui=none
 highlight Function                   guifg=#ffd2a7 guibg=none    gui=none
@@ -55,7 +55,7 @@ highlight User2                      guifg=#b8c2cc guibg=#222324 gui=none
 highlight User3                      guifg=yellow  guibg=#222324 gui=none
 highlight VertSplit                  guifg=#000000 guibg=#000000 gui=none
 highlight Visual                     guifg=#151616 guibg=#ffffb6 gui=none
-highlight WarningMsg                 guifg=white   guibg=#ff6c60 gui=none
+highlight WarningMsg                 guifg=#000000 guibg=#ffffb6 gui=none
 highlight WildMenu                   guifg=#151616 guibg=#c1f360 gui=none
 highlight WordsToAvoid               guifg=none    guibg=#222324 gui=none
 
