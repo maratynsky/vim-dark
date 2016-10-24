@@ -26,7 +26,7 @@ highlight Conditional                term=bold      cterm=bold      ctermbg=16  
 highlight Constant                   term=NONE      cterm=NONE      ctermbg=16  ctermfg=158  gui=NONE      guibg=#000000  guifg=#B1F7E0
 highlight Cursor                     term=NONE      cterm=NONE      ctermbg=146 ctermfg=233  gui=NONE      guibg=#B8C2CC  guifg=#151616
 highlight CursorColumn               term=NONE      cterm=NONE      ctermbg=233 ctermfg=7    gui=NONE      guibg=#121212  guifg=#EEEEEE
-highlight CursorLine                 term=NONE      cterm=NONE      ctermbg=235 ctermfg=7    gui=NONE      guibg=#222324  guifg=#EEEEEE
+highlight CursorLine                 term=NONE      cterm=NONE      ctermbg=235 ctermfg=NONE gui=NONE      guibg=#222324  guifg=NONE
 highlight CursorLineNr               term=NONE      cterm=NONE      ctermbg=235 ctermfg=59   gui=NONE      guibg=#222324  guifg=#484E52
 highlight Delimiter                  term=NONE      cterm=NONE      ctermbg=16  ctermfg=37   gui=NONE      guibg=#000000  guifg=#00A0A0
 highlight DiffAdd                    term=NONE      cterm=NONE      ctermbg=233 ctermfg=155  gui=NONE      guibg=#121212  guifg=#C1F360
@@ -65,6 +65,7 @@ highlight PmenuThumb                 term=NONE      cterm=NONE      ctermbg=231 
 highlight PreProc                    term=NONE      cterm=NONE      ctermbg=16  ctermfg=117  gui=NONE      guibg=#000000  guifg=#8FC4FD
 highlight Question                   term=NONE      cterm=NONE      ctermbg=16  ctermfg=155  gui=NONE      guibg=#000000  guifg=#C1F360
 highlight Search                     term=underline cterm=underline ctermbg=16  ctermfg=7    gui=underline guibg=#000000  guifg=#EEEEEE
+highlight SignColumn                 term=NONE      cterm=NONE      ctermbg=16  ctermfg=0    gui=NONE      guibg=#000000  guifg=#EEEEEE
 highlight Special                    term=NONE      cterm=NONE      ctermbg=16  ctermfg=173  gui=NONE      guibg=#000000  guifg=#EB7A4B
 highlight SpecialKey                 term=NONE      cterm=NONE      ctermbg=233 ctermfg=59   gui=NONE      guibg=#151515  guifg=#484E52
 highlight SpellBad                   term=undercurl cterm=undercurl ctermbg=16  ctermfg=NONE gui=undercurl guibg=#000000  guifg=NONE
@@ -75,7 +76,6 @@ highlight Statement                  term=NONE      cterm=NONE      ctermbg=16  
 highlight StatusLine                 term=NONE      cterm=NONE      ctermbg=235 ctermfg=0    gui=NONE      guibg=#222324  guifg=#657380
 highlight StatusLineNC               term=NONE      cterm=NONE      ctermbg=233 ctermfg=0    gui=NONE      guibg=#151616  guifg=#657380
 highlight String                     term=NONE      cterm=NONE      ctermbg=16  ctermfg=155  gui=NONE      guibg=#000000  guifg=#C1F360
-highlight SignColumn                 term=NONE      cterm=NONE      ctermbg=16  ctermfg=0    gui=NONE      guibg=#000000  guifg=#EEEEEE
 highlight TabLine                    term=underline cterm=underline ctermbg=248 ctermfg=7    gui=underline guibg=DarkGrey guifg=#EEEEEE
 highlight TabLineFill                term=reverse   cterm=reverse   ctermbg=16  ctermfg=7    gui=reverse   guibg=#000000  guifg=#EEEEEE
 highlight TabLineSel                 term=bold      cterm=bold      ctermbg=16  ctermfg=7    gui=bold      guibg=#000000  guifg=#EEEEEE
@@ -130,3 +130,5 @@ highlight link htmlTag               Statement
 highlight link htmlTagName           Keyword
 highlight link htmlEndTag            Statement
 highlight link htmlString            String
+highlight link htmlBold              Conditional
+highlight link htmlItalic            Operator
